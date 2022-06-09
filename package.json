@@ -4,7 +4,7 @@
   "description": "Capstone-Project-Gasturah",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./src/server.js"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -17,11 +17,15 @@
     "url": "https://github.com/Echo271/Capstone-Project-Gasturah/issues"
   },
   "homepage": "https://github.com/Echo271/Capstone-Project-Gasturah#readme",
-  "dependencies": {
-    "@hapi/hapi": "^20.2.2"
-  },
   "devDependencies": {
     "eslint": "^8.17.0",
     "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mysql": "^2.18.1"
   }
 }
