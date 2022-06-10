@@ -1,2 +1,17 @@
-# cloudrun-node-api-tutorial
-Project repository for how to deploy a node api on google cloud run 
+# Capstone-Project-Gasturah
+Capstone-Project-Gasturah 
+
+Capstone Project Bangkit 2022
+
+# ML-Path
+- Eko   - Universitas Mulawarman 
+- Reza  - Universitas Budi Luhur
+
+# MD-Path
+- Arman	- Universitas Mulawarman
+- Rubi	- Universitas Budi Luhur
+
+# CC-Path
+- Daffa	- Universitas Mulawarman
+- Farrel	- Universitas Indonesia
+
