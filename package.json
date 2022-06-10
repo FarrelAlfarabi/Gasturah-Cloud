@@ -1,9 +1,9 @@
 {
-  "name": "cloudrun-node-api-tutorial",
+  "name": "Gasturah",
   "version": "1.0.0",
-  "description": "How to deploy a node api on google cloud run",
+  "description": "Capstone Project Tim Gasturah",
   "main": "src/main.js",
-  "author": "Nkere-Awaji Inwan (enkaypeter@gmail.com)",
+  "author": "Farrel Alfarabi Saleh",
   "license": "MIT",
   "scripts": {
     "start": "NODE_ENV=production node ./build/app.js",
