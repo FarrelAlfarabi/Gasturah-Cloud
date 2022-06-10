@@ -6,6 +6,6 @@ const router = express();
 
 
 router.get("/", baseController.index);
-router.post("/signup", validationMiddleware.signup, baseController.signup)
+router.post("/signup", validationMiddleware.signup, baseController.signup);
 
 module.exports = router;
