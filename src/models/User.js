@@ -4,7 +4,7 @@ const SALT_WORK_FACTOR = 10;
 
 const UserSchema = mongoose.Schema({
     id: {
-        type: 'number',
+        type: 'string',
         required: true,
         unique: true,
     },
@@ -31,7 +31,7 @@ const UserSchema = mongoose.Schema({
     },
 
     level: {
-        type: "number"
+        type: "string"
     }
 
 });
