@@ -21,8 +21,6 @@ const UserSchema = mongoose.Schema({
     
     name: {
         type: "string",
-        required: true,
-        unique: true
     },
 
     profile_picture: {
