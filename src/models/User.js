@@ -25,7 +25,6 @@ const UserSchema = mongoose.Schema({
 
     profile_picture: {
         type: "string",
-        required: true,
     },
 
     level: {
