@@ -4,8 +4,7 @@ const SALT_WORK_FACTOR = 10;
 
 const UserSchema = mongoose.Schema({
     id: {
-        type: 'string',
-        required: true,
+        type: 'number',
         unique: true,
     },
     username: {
@@ -21,6 +20,7 @@ const UserSchema = mongoose.Schema({
     
     name: {
         type: "string",
+        required: true
     },
 
     profile_picture: {
@@ -28,7 +28,7 @@ const UserSchema = mongoose.Schema({
     },
 
     level: {
-        type: "string"
+        type: "number"
     }
 
 });
