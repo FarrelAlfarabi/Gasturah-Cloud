@@ -10,8 +10,8 @@ module.exports = {
 
     signup: (req, res) => {
 
-        const { email, gender, username, password, phone} = req.body;
-        const newUserObj = { email, gender, username, password, phone};
+        const {id, username, password, profile_picture, level} = req.body;
+        const newUserObj = { id, username, password, profile_picture, level};
         const newUser = new User(newUserObj);
 
         newUser.save((saveErr) => {

@@ -3,6 +3,11 @@ import bcrypt from 'bcryptjs';
 const SALT_WORK_FACTOR = 10;
 
 const UserSchema = mongoose.Schema({
+    id: {
+        type: 'int',
+        required: true,
+        unique: true,
+    },
     username: {
         type: 'string',
         required: true,
@@ -14,19 +19,19 @@ const UserSchema = mongoose.Schema({
         required: true
     },
     
-    email: {
+    name: {
         type: "string",
         required: true,
         unique: true
     },
 
-    phone: {
+    profile_picture: {
         type: "string",
         required: true,
     },
 
-    gender: {
-        type: "string"
+    level: {
+        type: "int"
     }
 
 });

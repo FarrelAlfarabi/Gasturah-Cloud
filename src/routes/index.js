@@ -6,10 +6,10 @@ const router = express();
 
 
 router.get("/", baseController.index);
-// router.post("/signup", validationMiddleware.signup, baseController.signup);
-router.post("/signup", baseController.signup);
+router.post("/signup", validationMiddleware.signup, baseController.signup);
+// router.post("/signup", baseController.signup);
 
 
-router.get("/signup", baseController.index);
+// router.get("/signup", baseController.index);
 
 module.exports = router;
