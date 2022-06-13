@@ -1,4 +1,3 @@
-This branch is unused
 # Capstone-Project-Gasturah
 
 Capstone Project Bangkit 2022
