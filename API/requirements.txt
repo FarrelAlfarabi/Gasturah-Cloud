@@ -1,0 +1,7 @@
+opencv_python==4.5.5.64
+Flask==2.1.2
+google-cloud-aiplatform==1.13.1
+google-auth==2.6.6
+protobuf==3.20.1
+gunicorn==20.1.0
+pillow==8.3.2
